@@ -1,0 +1,11 @@
+.alert{
+	.icon-alert{
+		font-size: 64px;
+		&.success{
+			color: $green;
+		}
+		&.danger{
+			color: $red;
+		}
+	}
+}

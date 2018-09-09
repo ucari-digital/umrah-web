@@ -1,0 +1,342 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+html, body, input, select, .input-color {
+  background-color: #22272B !important; }
+
+.content {
+  margin-top: 70px; }
+
+.bg-dark {
+  background-color: #16191C !important;
+  color: #FFFFFF !important; }
+
+.bg-green {
+  background-color: #4CAF50 !important;
+  color: #FFFFFF !important; }
+
+.bg-red {
+  background-color: #F44336 !important;
+  color: #FFFFFF !important; }
+
+.bg-tcolor {
+  background-color: #212121 !important;
+  color: #FFFFFF; }
+
+.bg-content {
+  background-color: #2C343A !important;
+  color: #FFFFFF; }
+  .bg-content * {
+    color: #FFFFFF !important; }
+
+.logister {
+  margin-top: 7%; }
+  .logister .logo {
+    margin: 0 auto;
+    width: 150px;
+    margin-bottom: 20px; }
+    .logister .logo > img {
+      width: 150px;
+      height: 50px; }
+  .logister .form-logister .logister-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid #424242; }
+
+.nav .profil {
+  display: inline-block; }
+  .nav .profil .profil-avatar {
+    width: 60px;
+    height: 60px;
+    float: left; }
+    .nav .profil .profil-avatar > img {
+      width: 100%;
+      height: 100%; }
+  .nav .profil .profil-info {
+    float: left;
+    padding: 0 10px; }
+    .nav .profil .profil-info .pi-nama {
+      width: 130px;
+      font-weight: 500;
+      margin-bottom: 3px; }
+    .nav .profil .profil-info .pi-u-id {
+      font-size: 14px; }
+.nav .nav-item {
+  margin-left: -20px !important;
+  margin-right: -20px !important; }
+  .nav .nav-item .list-item-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #BDBDBD !important;
+    padding: 20px 0 7px 0;
+    display: block;
+    padding-left: 20px;
+    border-left: 3px solid transparent;
+    text-transform: uppercase; }
+    .nav .nav-item .list-item-label.white {
+      color: #FFFFFF !important;
+      text-decoration: none; }
+  .nav .nav-item .list-item {
+    color: #212121;
+    padding: 4px 0;
+    display: block;
+    padding-left: 20px;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+    margin: 0 10px; }
+    .nav .nav-item .list-item:hover {
+      color: #757575; }
+
+.button {
+  font-size: 20px;
+  padding: 5px 30px;
+  background-color: transparent;
+  border: 1px solid #16191C;
+  position: absolute;
+  bottom: 0; }
+
+.dashboarad-content {
+  margin-top: 50px; }
+  .dashboarad-content .label-title {
+    margin: 10px 23px; }
+  .dashboarad-content .info-pemberangkatan .card {
+    min-height: 115px; }
+
+.table-dokumen {
+  width: 100%; }
+  .table-dokumen tr > th {
+    text-align: center;
+    width: 1px; }
+  .table-dokumen tr > td {
+    text-align: center;
+    padding: 15px 0 0 0; }
+    .table-dokumen tr > td > i {
+      font-size: 18px; }
+      .table-dokumen tr > td > i.fa-times {
+        color: #F44336 !important; }
+      .table-dokumen tr > td > i.fa-check {
+        color: #4CAF50 !important; }
+
+.nav-bg-dark {
+  box-shadow: 0px 0px 3px 0px #5E5E6E;
+  height: 60px; }
+  .nav-bg-dark a {
+    color: #FFFFFF !important; }
+  .nav-bg-dark .to-dashboard > i {
+    font-size: 28px;
+    margin-right: 15px; }
+
+.row-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400; }
+
+.paket .paket-list-single {
+  padding: 50px 0; }
+  .paket .paket-list-single img {
+    width: 300px;
+    height: 300px; }
+  .paket .paket-list-single .paket-detail-info .paket-title {
+    font-size: 28px; }
+  .paket .paket-list-single .paket-detail-info .paket-harga {
+    font-size: 22px;
+    padding: 10px 0;
+    color: #FF3366; }
+  .paket .paket-list-single .paket-detail-info .paket-fitur .list-fitur {
+    font-size: 18px;
+    padding: 5px 0; }
+    .paket .paket-list-single .paket-detail-info .paket-fitur .list-fitur .i-list-fitur {
+      width: 25px;
+      display: inline-block; }
+
+.carousel-item img {
+  height: 400px !important;
+  width: 100% !important;
+  margin: 0 auto; }
+
+.main-button {
+  font-size: 20px;
+  background-color: #424250;
+  border: 1px solid #424250;
+  color: #FFFFFF;
+  text-decoration: none;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  border-radius: 3px; }
+  .main-button:hover {
+    color: #FFFFFF;
+    text-decoration: none; }
+
+.button-light {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  bottom: 0; }
+
+.fitur {
+  padding: 30px 0; }
+  .fitur .fitur-icon {
+    font-size: 52px;
+    text-align: center;
+    padding: 30px 0;
+    display: block; }
+  .fitur .fitur-text {
+    display: block;
+    margin-bottom: 30px; }
+
+.testimoni {
+  padding: 30px 0px 80px 0; }
+  .testimoni .list-testimoni img {
+    width: 100px !important;
+    height: 100px !important;
+    float: left; }
+  .testimoni .list-testimoni .text-testimoni .nama {
+    margin-left: 110px;
+    font-weight: 600; }
+  .testimoni .list-testimoni .text-testimoni .text {
+    margin-left: 110px; }
+
+.footer-information {
+  padding: 30px 0; }
+  .footer-information .list-fi .list-fi-title {
+    text-transform: uppercase;
+    padding-bottom: 10px; }
+  .footer-information .list-fi .list-fi-menu {
+    font-size: 14px;
+    padding: 2px 0; }
+    .footer-information .list-fi .list-fi-menu-block {
+      display: block; }
+
+.footer-copyr {
+  padding: 10px; }
+  .footer-copyr > .container {
+    padding: 10px 0;
+    border-top: 1px solid #5E5E6E; }
+  .footer-copyr .logo {
+    display: inline-block; }
+    .footer-copyr .logo > img {
+      width: 40px; }
+  .footer-copyr .copyr {
+    display: inline-block;
+    padding: 10px; }
+  .footer-copyr .icon-social {
+    text-align: right; }
+    .footer-copyr .icon-social i {
+      padding: 10px; }
+
+.pesawat .box-seat {
+  padding: 5px 0; }
+  .pesawat .box-seat .seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #5E5E6E;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    padding: 7px 0px; }
+    .pesawat .box-seat .seat.on {
+      background-color: #4CAF50;
+      color: #FFFFFF; }
+    .pesawat .box-seat .seat.off {
+      background-color: #F44336; }
+  .pesawat .box-seat .seat-null {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    padding: 7px 0px; }
+  .pesawat .box-seat .coridor {
+    width: 20px; }
+
+.alert .icon-alert {
+  font-size: 64px; }
+  .alert .icon-alert.success {
+    color: #4CAF50; }
+  .alert .icon-alert.danger {
+    color: #F44336; }
+
+[id^="calendar-"] .fc-row.fc-week.fc-widget-content {
+  background-color: transparent !important; }
+[id^="calendar-"] .fc-scroller.fc-day-grid-container {
+  height: auto !important;
+  overflow: !important; }
+[id^="calendar-"] .fc-row.fc-week.fc-widget-content {
+  min-height: 3em !important; }
+[id^="calendar-"] .fc-row.fc-widget-header {
+  border-right-width: 0;
+  margin-right: 0; }
+[id^="calendar-"] .fc-right {
+  display: none !important; }
+[id^="calendar-"] .fc-widget-content, [id^="calendar-"] .fc-head-container.fc-widget-header, [id^="calendar-"] .fc-day-header.fc-widget-header {
+  border-color: transparent !important; }
+[id^="calendar-"] .fc-bgevent {
+  opacity: 1 !important; }
+[id^="calendar-"] .fc-day.fc-widget-content.fc-today {
+  background-color: rgba(22, 25, 28, 0.2) !important; }
+
+.striped-navigation-hotel .striped {
+  width: 100%;
+  display: block;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 1px solid #424242; }
+  .striped-navigation-hotel .striped.active {
+    background-color: #424250;
+    color: #FFF; }
+
+.kamar-hotel .room {
+  height: 60px;
+  width: 50px;
+  text-align: center;
+  border: 5px solid #2C343A; }
+  .kamar-hotel .room.availabel {
+    background-color: #4CAF50; }
+  .kamar-hotel .room.unavailabel {
+    background-color: #F44336; }
+  .kamar-hotel .room.undefined {
+    color: #212121 !important;
+    background-color: rgba(33, 33, 33, 0.3); }
+.kamar-hotel .coridor {
+  height: 20px; }
+
+.success {
+  color: #4CAF50;
+  font-size: 18px; }
+
+.dz-default {
+  padding: 30px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px dashed #9e9e9e; }
+
+.dz-preview {
+  display: none; }
+
+input.form-control, select.form-control, textarea.form-control {
+  outline: 0;
+  border-color: #424242;
+  box-shadow: none;
+  border-radius: 3px; }
+  input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
+    box-shadow: none; }
+
+.fc-left > h2 {
+  font-size: 18px; }
+
+/*# sourceMappingURL=design.css.map */

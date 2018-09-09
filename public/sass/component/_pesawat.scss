@@ -1,0 +1,32 @@
+.pesawat{
+    .box-seat{
+        padding: 5px 0;
+        .seat{
+            width: 30px;
+            height: 30px;
+            border: 1px solid $border-dark;
+            border-radius: 2px;
+            font-size: 12px;
+            text-align: center;
+            padding: 7px 0px;
+            &.on{
+                background-color: $green;
+                color: $white;
+            }
+            &.off{
+                background-color: $red;
+            }
+        }
+        .seat-null{
+            width: 30px;
+            height: 30px;
+            border-radius: 2px;
+            font-size: 12px;
+            text-align: center;
+            padding: 7px 0px;
+        }
+        .coridor{
+            width: 20px;
+        }
+    }
+}

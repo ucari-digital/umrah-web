@@ -1,0 +1,34 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+html, body, input, select, .input-color{
+	background-color: $bg-color !important;
+}
+.content{
+    margin-top: 70px;
+}
+.bg-dark{
+    background-color: $dark !important;
+    color: $white !important;
+}
+.bg-green{
+	background-color: $green !important;
+	color: $white !important;
+}
+.bg-red{
+	background-color: $red !important;
+	color: $white !important;
+}
+.bg-tcolor{
+	background-color: $text-color !important;
+	color: $white;
+}
+.bg-content{
+	background-color: $bg-content !important;
+	color: $white;
+	* {
+		color : $white !important;
+	}
+}

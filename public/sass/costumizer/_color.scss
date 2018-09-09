@@ -1,0 +1,21 @@
+// Text Color
+.text{
+	&-red{
+		color: $red !important;
+	}
+	&-green{
+		color: $green !important;
+	}
+	&-yellow{
+		color: $yellow !important;
+	}
+	&-blue{
+		color: $blue !important;
+	}
+	&-black{
+		color: $black !important;
+	}
+	&-grey{
+		color: $black-smoth-color !important;
+	}
+}

@@ -1,0 +1,28 @@
+[id^="calendar-"]{
+	.fc-row.fc-week.fc-widget-content{
+		background-color: transparent !important;
+	}
+	.fc-scroller.fc-day-grid-container{
+		height: auto !important;
+		overflow:  !important;
+	}
+	.fc-row.fc-week.fc-widget-content{
+		min-height: 3em !important;
+	}
+	.fc-row.fc-widget-header{
+		border-right-width: 0;
+		margin-right:0;
+	}
+	.fc-right{
+		display: none !important;
+	}
+	.fc-widget-content, .fc-head-container.fc-widget-header,.fc-day-header.fc-widget-header{
+		border-color: transparent !important;
+	}
+	.fc-bgevent{
+		opacity: 1 !important;
+	}
+	.fc-day.fc-widget-content.fc-today {
+		background-color: rgba($dark, .2) !important;
+	}
+}

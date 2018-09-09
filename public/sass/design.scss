@@ -1,0 +1,15 @@
+// Component
+@import './component/variable',
+        './component/global',
+        './component/logister',
+        './component/main-dashboard',
+        './component/main-page',
+        './component/pesawat',
+        './component/alert',
+        './component/tgl_berangkat',
+        './component/kamar-hotel',
+        './component/dropzone'
+        ;
+// Custom
+@import './costumizer/form',
+        './costumizer/calendar';

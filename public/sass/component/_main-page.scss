@@ -1,0 +1,156 @@
+.nav-bg-dark{
+    a{
+        color: $white !important;
+    }
+    box-shadow: 0px 0px 3px 0px #5E5E6E;
+    height: 60px;
+    .to-dashboard{
+        > i {
+            font-size: 28px;
+            margin-right: 15px;
+        }
+    }
+}
+.row-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.paket{
+    .paket-list-single{
+        padding: 50px 0;
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        .paket-detail-info{
+            .paket-title{
+                font-size: 28px;
+            }
+            .paket-harga{
+                font-size: 22px;
+                padding: 10px 0;
+                color: $pink;
+            }
+            .paket-fitur{
+                .list-fitur{
+                    font-size: 18px;
+                    padding: 5px 0;
+                    .i-list-fitur{
+                        width: 25px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.carousel-item{
+    img{
+        height: 400px !important;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+}
+
+.main-button{
+    font-size: 20px;
+    background-color: $button-primary;
+    border: 1px solid $button-primary;
+    color: $white;
+    text-decoration: none;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    &:hover{
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+.button-light{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid $white;
+    bottom: 0;
+}
+
+.fitur{
+    padding: 30px 0;
+    .fitur-icon{
+        font-size: 52px;
+        text-align: center;
+        padding: 30px 0;
+        display: block;
+    }
+    .fitur-text{
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
+.testimoni{
+    padding: 30px 0px 80px 0;
+    .list-testimoni{
+        img{
+            width: 100px !important;
+            height: 100px !important;
+            float: left;
+        }
+        .text-testimoni{
+            .nama{
+                margin-left: 110px;
+                font-weight: 600;
+            }
+            .text{
+                margin-left: 110px;
+            }
+        }
+    }
+}
+
+.footer-information{
+    padding: 30px 0;
+    .list-fi{
+        .list-fi-title{
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
+        .list-fi-menu{
+            font-size: 14px;
+            padding: 2px 0;
+            &-block{
+                display: block;
+            }
+        }
+    }
+}
+
+.footer-copyr{
+    padding: 10px;
+    & > .container{
+        padding: 10px 0;
+        border-top: 1px solid $border-dark;
+    }
+    .logo{
+        display: inline-block;
+        > img{
+            width: 40px;
+        }
+    }
+    .copyr{
+        display: inline-block;
+        padding: 10px;
+    }
+    .icon-social{
+        text-align: right;
+        i{
+            padding: 10px;
+        }
+    }
+}

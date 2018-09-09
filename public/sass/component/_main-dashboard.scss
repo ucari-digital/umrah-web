@@ -1,0 +1,105 @@
+// Navigation
+.nav{
+    .profil{
+        display: inline-block;
+        .profil-avatar{
+            width: 60px;
+            height: 60px;
+            float: left;
+            & > img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .profil-info{
+            float: left;
+            padding: 0 10px;
+            .pi-nama{
+                width: 130px;
+                font-weight: 500;
+                margin-bottom: 3px;
+            }
+            .pi-u-id{
+                font-size: 14px;
+            }
+        }
+    }
+    .nav-item{
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+        .list-item-label{
+            font-size: 14px;
+            font-weight: 500;
+            color: #BDBDBD !important;
+            padding: 20px 0 7px 0;
+            display: block;
+            padding-left: 20px;
+            border-left: 3px solid transparent;
+            text-transform: uppercase;
+            &.white{
+                color: $white !important;
+                text-decoration: none;
+            }
+        }
+        .list-item{
+            color: $text-color;
+            padding: 4px 0;
+            display: block;
+            padding-left: 20px;
+            border-left: 3px solid transparent;
+            text-decoration: none;
+            margin: 0 10px;
+            &:hover{
+                color: $text-light;
+            }
+            // &.active{
+            //     padding-left: 20px;
+            //     border-left: 3px solid $dark;
+            //     display: block;
+            // }
+        }
+    }
+}
+
+.button{
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 1px solid $dark;
+    position: absolute;
+    bottom: 0;
+}
+
+// Dashboard
+.dashboarad-content{
+    margin-top: 50px;
+    .label-title{
+        margin: 10px 23px;
+    }
+    .info-pemberangkatan{
+        .card {
+            min-height: 115px;
+        }
+    }
+}
+
+.table-dokumen{
+    width: 100%;
+    tr > th{
+        text-align: center;
+        width: 1px;
+    }
+    tr > td{
+        text-align: center;
+        padding: 15px 0 0 0;
+        > i {
+            font-size: 18px;
+            &.fa-times{
+                color: $red !important;
+            }
+            &.fa-check{
+                color: $green !important;
+            }
+        }
+    }
+}
