@@ -42,6 +42,7 @@
 				@endif
 			</div>
 			<div class="col-md-3">
+				<label class="text-white">KTP</label>
 				@if($status_file['ktp'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
