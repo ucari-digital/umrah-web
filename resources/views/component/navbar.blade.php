@@ -1,5 +1,5 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark nav-bg-dark">
-	<a class="navbar-brand" href="{{url('dashboard')}}"><img src="{{session('brand')['logo']}}" alt="" style="width: 100px; max-height: 40px"></a>
+	<a class="navbar-brand" href="{{url('dashboard')}}"><img src="{{session('brand')['logo']}}" alt="" style="width: 250px;"></a>
 	<div><img src="{{session('brand')['slogan']}}" style="width: 100px; max-height: 40px"></div>
 	<div class="collapse navbar-collapse" id="navbarText">
 		<ul class="navbar-nav mr-auto">
