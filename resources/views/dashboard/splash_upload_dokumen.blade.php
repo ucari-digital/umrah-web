@@ -16,7 +16,7 @@
 		<h4 class="text-center text-white mt-5">Lengkapi Dokumen Untuk Melanjutkan ke Tahap Selanjutnya</h4>
 		<div class="row mt-5">
 			<div class="col-md-3">
-				<label>Paspor</label>
+				<label class="text-white">Paspor</label>
 				@if($status_file['passpor'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -29,7 +29,7 @@
 				@endif
 			</div>
 			<div class="col-md-3">
-				<label>Foto</label>
+				<label class="text-white">Foto</label>
 				@if($status_file['foto'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -55,6 +55,7 @@
 				@endif
 			</div>
 			<div class="col-md-3">
+				<label class="text-white">Kartu Keluarga</label>
 				@if($status_file['kartu_keluarga'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -69,6 +70,7 @@
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-3">
+				<label class="text-white">Buku Nikah</label>
 				@if($status_file['buku_nikah'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -93,6 +95,7 @@
 				@endif
 			</div> --}}
 			<div class="col-md-3">
+				<label class="text-white">Kartu Kuning</label>
 				@if($status_file['kartu_kuning'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -105,6 +108,7 @@
 				@endif
 			</div>
 			<div class="col-md-3">
+				<label class="text-white">ID Karyawan</label>
 				@if($status_file['kartu_karyawan'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
