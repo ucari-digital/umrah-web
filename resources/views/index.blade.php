@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row justify-content-md-center">
         	<div class="col-md-10 logister mb-0">
-        		<h1 class="text-center text-white" style="font-size: 38px;">Selamat Datang di Aplikasi <br>{{session('brand')['nama']}}</h1>
+        		<h1 class="text-center text-white" style="font-size: 38px;">Selamat Datang di</h1>
         	</div>
             <div class="col-md-10 logister mt-3">
 			    <div class="logo" style="width: 350px;">
