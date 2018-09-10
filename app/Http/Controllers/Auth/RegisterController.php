@@ -133,7 +133,7 @@ class RegisterController extends Controller
                         'nama' => $request->nama,
                         'jk' => $request->jk,
                         'email' => $request->email,
-                        'telephone' => $request->telephone,
+                        'telephone' => '62'.$request->telephone,
                         'nik' => $request->nik,
                         'kode_perusahaan' => $request->kode_perusahaan,
                         'nip' => $request->nip,

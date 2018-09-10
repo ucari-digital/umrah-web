@@ -16,6 +16,7 @@
 		<h4 class="text-center text-white mt-5">Lengkapi Dokumen Untuk Melanjutkan ke Tahap Selanjutnya</h4>
 		<div class="row mt-5">
 			<div class="col-md-3">
+				<label>Paspor</label>
 				@if($status_file['passpor'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -28,6 +29,7 @@
 				@endif
 			</div>
 			<div class="col-md-3">
+				<label>Foto</label>
 				@if($status_file['foto'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -77,7 +79,7 @@
 				</form>
 				@endif
 			</div>
-			<div class="col-md-3">
+			{{-- <div class="col-md-3">
 				@if($status_file['akta'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
 					<button type="submit" class="btn btn-primary btn-block mt-3 disabled">Berhasil diupload</button>
@@ -88,7 +90,7 @@
 					<button class="btn btn-primary btn-block mt-3">Upload Akta Kelahiran</button>
 				</form>
 				@endif
-			</div>
+			</div> --}}
 			<div class="col-md-3">
 				@if($status_file['kartu_kuning'])
 					<input name="file" type="file" class="form-control" placeholder="pas" disabled="" />
