@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark nav-bg-dark">
-        <a class="navbar-brand" href="#"><img src="{{session('brand')['logo']}}" alt="" style="width: 100px; max-height: 40px"></a>
+        <a class="navbar-brand" href="{{url('dashboard')}}"><img src="{{session('brand')['logo']}}" alt="" style="width: 100px; max-height: 40px"></a><div><img src="{{session('brand')['slogan']}}" style="width: 250px;"></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
