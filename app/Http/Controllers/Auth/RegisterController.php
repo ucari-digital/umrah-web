@@ -12,6 +12,7 @@ use Hash;
 use App\Helper\AuthTracker;
 use App\Helper\Guzzle;
 use GeniusTS\HijriDate\Date as Hijriah;
+use App\Model\Departemen;
 class RegisterController extends Controller
 {
 
@@ -192,11 +193,21 @@ class RegisterController extends Controller
     public function register()
     {
         $perusahaan = self::getPerusahaan();
-        $bank = self::bank();
-        $travel = self::travel();
+
+        $bank = collect(self::bank()['data']);
+        $bank = $bank->sortBy('nama_bank');
+        $bank = $bank->values()->all();
+
+        $travel = collect(self::travel()['data']);
+        $travel = $travel->sortBy('nama_travel');
+        $travel = $travel->values()->all();
+
+        $departemen = collect(Departemen::all());
+        $departemen = $departemen->sortBy('departemen');
         return view('auth.register')
         ->with('perusahaan', $perusahaan)
         ->with('bank', $bank)
-        ->with('travel', $travel);
+        ->with('travel', $travel)
+        ->with('departemen', $departemen);
     }
 }

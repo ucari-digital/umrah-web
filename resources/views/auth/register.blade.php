@@ -42,7 +42,7 @@
                                         <label>Travel Umrah</label>
                                         <select name="travel" class="form-control" required="">
                                             <option>Pilih</option>
-                                            @foreach($travel['data'] as $item)
+                                            @foreach($travel as $item)
                                             <option value="{{$item['kode_travel']}}">{{$item['nama_travel']}}</option>
                                             @endforeach
                                         </select>
@@ -53,7 +53,7 @@
                                         <label>Bank</label>
                                         <select name="bank" class="form-control" required="">
                                             <option>Pilih</option>
-                                            @foreach($bank['data'] as $item)
+                                            @foreach($bank as $item)
                                             <option value="{{$item['kode_bank']}}">{{$item['nama_bank']}}</option>
                                             @endforeach
                                         </select>
@@ -62,7 +62,12 @@
                             </div>
                             <div class="form-group">
                                 <label>Departemen / Dinas</label>
-                                <input type="text" name="departemen" class="form-control" placeholder="Departemen">
+                                <select name="departemen" class="form-control">
+                                    <option>PILIH</option>
+                                    @foreach($departemen as $departemen)
+                                    <option value="{{$departemen->departemen}}">{{$departemen->departemen}}</option>
+                                    @endforeach
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label>Jabatan / Eselon</label>
