@@ -95,9 +95,7 @@ Route::prefix('api')->group(function () {
 });
 Route::get('hijri', 'Auth\RegisterController@nomor_peserta');
 
-Route::prefix('{subdomain}')->group(function(){
-	Route::get('/', 'Main\MainController@Main');
-});
+Route::get('{logister?}/{subdomain}', 'Main\MainController@Main');
 
 Route::get('hash-make', function() {
 	return Hash::make('abc');
