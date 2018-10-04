@@ -34,7 +34,6 @@ class MainController extends Controller
         // return session('brand');
 
         if ($response) {
-            return view('index');
             if (request('logister') == 'register') {
                 return redirect()->to('register');
             } else if(request('logister') == 'login'){
