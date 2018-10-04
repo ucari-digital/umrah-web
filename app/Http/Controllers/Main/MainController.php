@@ -34,13 +34,14 @@ class MainController extends Controller
         // return session('brand');
 
         if ($response) {
-            if (request('logister') == 'register') {
-                return redirect()->to('register');
-            } else if(request('logister') == 'login'){
-                return redirect()->to('login');
-            } else {
-               return view('index');
-            }
+            // if (request('logister') == 'register') {
+            //     return redirect()->to('register');
+            // } else if(request('logister') == 'login'){
+            //     return redirect()->to('login');
+            // } else {
+            //    return view('index');
+            // }
+             return view('index');
         } else {
             if ($currentSegment) {
                 return redirect()->back();
